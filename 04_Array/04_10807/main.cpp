@@ -25,4 +25,5 @@ int main()
             cnt++;
     }
     cout << cnt << '\n';
+    delete[] arr;
 }
