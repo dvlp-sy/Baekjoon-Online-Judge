@@ -14,7 +14,7 @@ int main()
     
     for (int i=0; i<S.length(); i++)
     {
-        int idx = S[i]-static_cast<int>('a');
+        int idx = S[i]-'a';
         if (arr[idx] == -1)
             arr[idx] = i;
     }

@@ -8,7 +8,7 @@ int main()
     int N, sum=0; string str;
     cin >> N >> str;
     for (char c : str)
-        sum += c - static_cast<int>('0');
+        sum += c - '0';
     
     cout << sum << '\n';
 }
