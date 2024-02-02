@@ -29,5 +29,6 @@ int main()
         }
     }
     
+    delete[] cards;
     cout << max << '\n';
 }
